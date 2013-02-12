@@ -1,7 +1,7 @@
 var PageController = {
 	
 	index: function(req, res) {
-		res.render('index');
+		res.render('index', {title: "Express Rocks"});
 	}
 	
 };
